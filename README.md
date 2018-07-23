@@ -20,6 +20,8 @@ This project will give you a chance to practice the skills you learned in the fi
 1. Create a listener and event handler for each button in MainActivity.java
 2. In each event handler, change the view's background color to the color that corresponds to the button's title
 
+**TIP: Remember to use `android.R.color.color_name` to get access to the colors provided by android. You can see which colors are available in the [documentation](https://developer.android.com/reference/android/R.color "Android Color Documentation").**
+
 ### Build, Run, and Test Your App
 
 1. Build and run your app using the your preferred test environment.
@@ -31,3 +33,7 @@ If everything works, congratulations! You've just built your first Android app o
 ## Submit
 
 Send your completed app to your Project Manager.
+
+### Challenge
+
+Experiment with different properties of [Button](https://developer.android.com/reference/android/widget/Button) and [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear). To improve the look of your app.
