@@ -6,7 +6,7 @@ This project will give you a chance to practice the skills you learned in the fi
 
 1. Create a new Android Studio project
 2. Name the project "Rainbow"
-3. Make sure you select Java as the development language and that the target API level is below that of your testing environment.
+3. Make sure that the target API level is below that of your testing environment.
 
 ### Add Buttons to the App
 
