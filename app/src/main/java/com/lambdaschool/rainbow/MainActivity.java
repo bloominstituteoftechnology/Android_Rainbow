@@ -25,31 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
         layoutBackground = findViewById(R.id.background);
 
-        btnBlue.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layoutBackground.setBackgroundColor(getResources().getColor(android.R.color.holo_blue_bright));
-            }
-        });
-
         btnGreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 layoutBackground.setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));
-            }
-        });
-
-        btnOrange.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layoutBackground.setBackgroundColor(getResources().getColor(android.R.color.holo_orange_light));
-            }
-        });
-
-        btnPurple.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layoutBackground.setBackgroundColor(getResources().getColor(android.R.color.holo_purple));
             }
         });
 
@@ -60,10 +39,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnOrange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                layoutBackground.setBackgroundColor(getResources().getColor(android.R.color.holo_orange_light));
+            }
+        });
+
         btnGray.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 layoutBackground.setBackgroundColor(getResources().getColor(android.R.color.darker_gray));
+            }
+        });
+
+        btnBlue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                layoutBackground.setBackgroundColor(getResources().getColor(android.R.color.holo_blue_bright));
+            }
+        });
+
+        btnPurple.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                layoutBackground.setBackgroundColor(getResources().getColor(android.R.color.holo_purple));
             }
         });
 
