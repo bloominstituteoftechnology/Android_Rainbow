@@ -2,6 +2,9 @@
 
 This project will give you a chance to practice the skills you learned in the first lesson of the Android 101 course. Follow the instructions below:
 
+### Survey
+After completing this project, please fill out the survey found [here](https://goo.gl/forms/f7DYCJDPOfKw3lLU2)
+
 ### Create an Android Studio Project
 
 1. Create a new Android Studio project
