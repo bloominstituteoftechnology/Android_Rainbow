@@ -23,8 +23,8 @@ After completing this project, please fill out the survey found [here](https://g
 1. Create a listener and event handler for each button in MainActivity.java
 2. In each event handler, change the view's background color to the color that corresponds to the button's title
 
->TIP: use `.setBackgroundColor(getResources().getColor(android.R.color.holo_orange_dark));` to set the background color of your component.  
->TIP: Remember to use `android.R.color.color_name` to get access to the colors provided by android. You can see which colors are available in the [documentation](https://developer.android.com/reference/android/R.color "Android Color Documentation").
+> use `.setBackgroundColor(Color.RED)` to set the background color of your component.  
+> Remember to use `Color.color_name` to get access to the colors provided by android. You can see which colors are available in the [documentation](https://developer.android.com/reference/android/graphics/Color#constants_2).
 
 ### Build, Run, and Test Your App
 
